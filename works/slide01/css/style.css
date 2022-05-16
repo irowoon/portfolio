@@ -1,0 +1,203 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap');
+
+header > h1 > a {
+	display: block;
+	width: 450px;
+	height: 130px;
+	margin: 0 auto;
+	text-indent: -9999px;
+	background-image: url(./../images/logo.png);
+	background-size: cover;
+}
+
+header > a {
+	position: absolute;
+	right: 80px;
+	top: 10px;
+}
+
+header > nav {
+	background-color: #221a18;
+	border-bottom: 3px solid #ffdc4d;
+}
+
+header > nav > .gnb {
+	display: flex;
+	width: 1200px;
+	margin: 0 auto;
+	justify-content: center;
+}
+
+header > nav > .gnb > li {
+	padding: 5px 35px;
+	background-color: #221a18;
+}
+
+header > nav > .gnb > li > a {
+	display: block;
+	height: 40px;
+	color: #fff;
+	font-size: 20px;
+	line-height: 40px;
+	font-family: 'Do Hyeon', sans-serif;
+	text-align: center;
+}
+
+header > nav > .gnb > li:hover {
+	background-color: #f7e256;
+}
+
+header > nav > .gnb > li:hover > a {
+	color: #000;
+}
+
+section {
+	overflow: hidden;
+	position: relative;
+	width: 1130px;
+	height: 600px;
+	margin: 20px auto 0;
+}
+
+section > .slides-container {
+	display: flex;
+	position: absolute;
+	left: calc(-1130px * 0);
+	top: 0;
+	width: calc(1130px * 10);
+}
+
+section > .slides-container > p {
+	position: relative;
+	width: 1130px;
+	height: 600px;
+	text-indent: -9999px;
+	background-position: center center;
+	background-repeat: no-repeat;
+}
+
+section > .slides-container > p:nth-of-type(1) {
+	background-image: url(./../images/visual1.png);
+}
+section > .slides-container > p:nth-of-type(2) {
+	background-image: url(./../images/visual2.png);
+}
+section > .slides-container > p:nth-of-type(3) {
+	background-image: url(./../images/visual3.png);
+}
+section > .slides-container > p:nth-of-type(4) {
+	background-image: url(./../images/visual4.png);
+}
+section > .slides-container > p:nth-of-type(5) {
+	background-image: url(./../images/visual5.png);
+}
+section > .slides-container > p:nth-of-type(6) {
+	background-image: url(./../images/visual6.png);
+}
+section > .slides-container > p:nth-of-type(7) {
+	background-image: url(./../images/visual7.png);
+}
+section > .slides-container > p:nth-of-type(8) {
+	background-image: url(./../images/visual8.png);
+}
+section > .slides-container > p:nth-of-type(9) {
+	background-image: url(./../images/visual9.png);
+}
+section > .slides-container > p:nth-of-type(10) {
+	background-image: url(./../images/visual10.png);
+}
+
+section > .slides-container > p > a {
+	display: block;
+	height: 600px;
+	text-indent: -9999px;
+}
+
+section > .slides-container > p:nth-child(10) > a {
+	text-indent: -9000px;
+}
+
+section > .slides-container > p > iframe {
+	position: absolute;
+	left: 244px;
+	top: 188px;
+	z-index: 100;
+}
+
+section > .slides-container > p:nth-child(8) > iframe {
+	position: absolute;
+	left: 305px;
+	top: 170px;
+	z-index: 100;
+}
+
+section > .slides-btn {
+	display: flex;
+	justify-content: space-around;
+	position: absolute;
+	left: 50%;
+	bottom: 10px;
+	z-index: 100;
+	margin-left: -100px;
+	width: 200px;
+}
+
+section > .slides-btn > li {
+	width: 15px;
+	background-color: #fff;
+	border-radius: 8px;
+	transition: all 0.3s;
+}
+
+section > .slides-btn > li.on,
+section > .slides-btn > li:hover {
+	width: 23px;
+	background-color: #ffcf4d;
+}
+
+section > .slides-btn > li > a {
+	display: block;
+	height: 15px;
+}
+
+section > a.prev {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	z-index: 100;
+	width: 100px;
+	height: 94px;
+	margin-top: -50px;
+	text-indent: -9999px;
+	background-image: url(./../images/arrowleft.png);
+	background-size: cover;
+}
+
+section > a.prev:hover {
+	background-position: 0 -94px;
+}
+section > a.next {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 50%;
+	z-index: 100;
+	width: 100px;
+	height: 94px;
+	margin-top: -50px;
+	text-indent: -9999px;
+	background-image: url(./../images/arrowright.png);
+	background-size: cover;
+}
+
+section > a.next:hover {
+	background-position: 0 -94px;
+}
+
+footer > address {
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+}

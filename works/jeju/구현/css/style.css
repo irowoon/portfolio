@@ -1,0 +1,672 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang&family=Gugi&family=Lobster&display=swap');
+
+header {
+	position: relative;
+	width: 1020px;
+	height: 600px;
+	margin: 0 auto;
+}
+
+header > h1.logo {
+	display: block;
+	position: absolute;
+	left: 20px;
+	top: 150px;
+	width: 400px;
+}
+
+header > h1.logo > a {
+	display: block;
+	height: 200px;
+	text-indent: -9999px;
+	background-image: url(./../logo/jejulogo.png);
+	background-size: cover;
+}
+
+header > p {
+	position: absolute;
+	left: 100px;
+	top: 360px;
+	font-size: 20px;
+	font-family: 'Gugi';
+}
+
+header > img:nth-of-type(1) {
+	position: absolute;
+	left: 500px;
+	top: 80px;
+	width: 350px;
+}
+
+header > img:nth-of-type(2) {
+	position: absolute;
+	right: 170px;
+	top: 335px;
+	width: 220px;
+}
+
+header > img:nth-of-type(3) {
+	position: absolute;
+	right: 0px;
+	top: 220px;
+	width: 150px;
+}
+
+/* nav */
+header > nav {
+	position: fixed;
+	right: 2em;
+	top: 50%;
+	z-index: 500;
+	margin-top: -100px;
+	font-family: 'Lobster';
+}
+
+header > nav > .gnb {
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: space-around;
+	height: 200px;
+}
+
+header > nav > .gnb > li {
+	width: 30px;
+	background-color: #fff;
+	border-radius: 50%;
+}
+
+header > nav > .gnb > li > a {
+	display: block;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 50%;
+}
+
+header > nav > .gnb > li.on > a,
+header > nav > .gnb > li:hover > a {
+	color: white;
+	background-color: lightgray;
+}
+
+/* visual */
+section.visual {
+	height: 200px;
+	text-indent: -9999px;
+	background-image: url(./../images/jeju.jpg);
+	background-position: center -700px;
+}
+
+/* east */
+section > #east {
+	height: 1820px;
+	padding-top: 100px;
+	color: #ddd;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#3a414d+0,3a414d+100&1+0,0.99+78,0.75+84,0.5+89,0.25+94,0+100 */
+	background: -moz-linear-gradient(
+		top,
+		rgba(58, 65, 77, 1) 0%,
+		rgba(58, 65, 77, 0.99) 78%,
+		rgba(58, 65, 77, 0.75) 84%,
+		rgba(58, 65, 77, 0.5) 89%,
+		rgba(58, 65, 77, 0.25) 94%,
+		rgba(58, 65, 77, 0) 100%
+	); /* FF3.6-15 */
+	background: -webkit-linear-gradient(
+		top,
+		rgba(58, 65, 77, 1) 0%,
+		rgba(58, 65, 77, 0.99) 78%,
+		rgba(58, 65, 77, 0.75) 84%,
+		rgba(58, 65, 77, 0.5) 89%,
+		rgba(58, 65, 77, 0.25) 94%,
+		rgba(58, 65, 77, 0) 100%
+	); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(
+		to bottom,
+		rgba(58, 65, 77, 1) 0%,
+		rgba(58, 65, 77, 0.99) 78%,
+		rgba(58, 65, 77, 0.75) 84%,
+		rgba(58, 65, 77, 0.5) 89%,
+		rgba(58, 65, 77, 0.25) 94%,
+		rgba(58, 65, 77, 0) 100%
+	); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient(
+			startColorstr='#3a414d',
+			endColorstr='#003a414d',
+			GradientType=0
+		); /* IE6-9 */
+}
+
+section > #east > .page1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 90px;
+}
+
+section > #east > .page1 > .left {
+	margin-right: 20px;
+}
+
+section > #east > .page1 h3 {
+	width: 500px;
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #east > .page1 > .left > h3,
+section > #east > .page1 > .left > p {
+	text-align: left;
+}
+
+section > #east > .page1 > .right > h3,
+section > #east > .page1 > .right > p {
+	text-align: right;
+}
+
+section > #east > .page1 p {
+	display: block;
+	width: 500px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+section > #east > .page1 img {
+	width: 500px;
+}
+
+section > #east > .page2 {
+	position: relative;
+	width: 1020px;
+	height: 700px;
+	margin: 0 auto;
+}
+
+section > #east > .page2 > h3 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 500px;
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #east > .page2 > p {
+	display: block;
+	position: absolute;
+	left: 0px;
+	top: 50px;
+	width: 500px;
+	height: 50px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+section > #east > .page2 > .video-container1 {
+	position: absolute;
+	right: 10px;
+	top: -50px;
+	width: 300px;
+	height: 100px;
+}
+
+section > #east > .page2 > .video-container1 > video {
+	width: 100%;
+}
+
+section > #east > .page2 > .video-container2 {
+	position: absolute;
+	left: 0px;
+	top: 160px;
+	width: 650px;
+	height: 550px;
+}
+
+section > #east > .page2 > .video-container2 > video {
+	width: 100%;
+}
+
+section > #east > .page2 > p.screen {
+	position: absolute;
+	left: 710px;
+	top: 160px;
+}
+
+section > #east > .page2 > p.screen > img {
+	width: 300px;
+	height: 365px;
+}
+
+section > #east > .page2 > .btn {
+	display: flex;
+	justify-content: space-between;
+	position: absolute;
+	right: 10px;
+	top: 535px;
+	width: 50px;
+}
+
+section > #east > .page2 > .btn > li {
+	width: 10px;
+	height: 10px;
+	background-size: cover;
+	background-image: url(./../icons/circle.png);
+}
+
+section > #east > .page2 > .btn > li:hover {
+	border: 2px solid #ddd;
+	border-radius: 50%;
+	box-sizing: border-box;
+}
+
+section > #east > .page2 > .btn > li > a {
+	display: block;
+	height: 10px;
+	text-indent: -9999px;
+}
+
+/* west */
+section > #west {
+	height: 1450px;
+	padding-top: 100px;
+	background-color: #fff;
+}
+
+section > #west > .page1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 100px;
+}
+
+section > #west > .page1 > .left {
+	margin-right: 20px;
+}
+
+section > #west > .page1 h3 {
+	width: 500px;
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #west > .page1 > .left > h3,
+section > #west > .page1 > .left > p {
+	text-align: left;
+}
+
+section > #west > .page1 > .left > p,
+section > #west > .page1 > .right > p {
+	display: block;
+	width: 500px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+section > #west > .page1 > .right > h3,
+section > #west > .page1 > .right > p {
+	text-align: right;
+}
+
+section > #west > .page1 img {
+	width: 500px;
+	height: 300px;
+}
+
+section > #west > .page2 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+}
+
+section > #west > .page2:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	background-image: url(./../images/geumak1.jpg);
+	background-position: center -800px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	content: '';
+	opacity: .5;
+}
+
+section > #west > .page2 > img,
+section > #west > .page3 > img {
+	position: absolute;
+	left: 55px;
+	z-index: 100;
+	width: 300px;
+	height: 200px;
+}
+
+section > #west > .page2 > img:nth-child(1),
+section > #west > .page3 > img:nth-child(1) {
+	top: 50px;
+}
+
+section > #west > .page2 > img:nth-child(2),
+section > #west > .page3 > img:nth-child(2) {
+	top: 250px;
+}
+
+section > #west > .page2 > .top {
+	position: absolute;
+	right: 70px;
+	bottom: 10px;
+	z-index: 100;
+	width: 600px;
+}
+
+section > #west > .page2 > .top > h3 {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+	text-align: center;
+}
+
+section > #west > .page2 > .top > p {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+	text-align: justify;
+}
+
+section > #west > .page3 {
+	display: block;
+	position: relative;
+	width: 100%;
+	height: 400px;
+	margin: 0 auto 40px;
+}
+
+section > #west > .page3:after {
+	display: block;
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	background-image: url(./../images/seabyeol1.png);
+	background-position: center -400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	content: '';
+	opacity: .7;
+}
+
+section > #west > .page3 > .bottom {
+	position: absolute;
+	right: 70px;
+	bottom: 10px;
+	z-index: 100;
+	width: 600px;
+}
+
+section > #west > .page3 > .bottom > h3 {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+	text-align: center;
+}
+
+section > #west > .page3 > .bottom > p {
+	display: block;
+	margin-bottom: 10px;
+	font-weight: 600;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+	text-align: justify;
+}
+
+/* south */
+section > #south {
+	height: 1400px;
+	padding-top: 100px;
+	background-color: rgb(231, 234, 238);
+}
+
+section > #south > .page1 {
+	display: flex;
+	position: relative;
+	left: 50%;
+	top: 0;
+	margin-left: -500px;
+	margin-bottom: 20px;
+}
+
+section > #south > .page1 > img {
+	width: 500px;
+	margin-right: 20px;
+}
+
+section > #south > .page1 > .article {
+	display: block;
+	position: relative;
+	width: 500px;
+	height: 130px;
+	margin-top: 100px;
+}
+
+section > #south > .page1 > .article > h3 {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #south > .page1 > .article > p {
+	width: 500px;
+	height: 50px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+section > #south > .page2 {
+	margin-top: 100px;
+	text-align: center;
+}
+
+section > #south > .page2 > .slides {
+	display: flex;
+	width: calc(200px * 5);
+	margin: 0 auto;
+}
+
+section > #south > .page2 > .slides > p {
+	display: block;
+	overflow: hidden;
+	width: 200px;
+	height: 380px;
+	transition: all 0.5s ease-in-out 0s;
+	text-indent: -9999px;
+	background-size: cover;
+}
+
+section > #south > .page2 > .slides > p:hover {
+	width: 700px;
+}
+
+section > #south > .page2 > .slides > p:nth-child(1) {
+	background-image: url(./../images/hueri1.PNG);
+}
+section > #south > .page2 > .slides > p:nth-child(2) {
+	background-image: url(./../images/hueri2.jpg);
+}
+section > #south > .page2 > .slides > p:nth-child(3) {
+	background-image: url(./../images/hueri3.jpg);
+}
+section > #south > .page2 > .slides > p:nth-child(4) {
+	background-image: url(./../images/hueri4.PNG);
+}
+section > #south > .page2 > .slides > p:nth-child(5) {
+	background-image: url(./../images/hueri5.jpg);
+}
+section > #south > .page2 > .article > h3 {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #south > .page2 > .article > p {
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+/* north */
+section > #north {
+	height: 1100px;
+	padding-top: 100px;
+	color: #ddd;
+	background-color: rgb(52, 54, 54);
+}
+
+section > #north > .page1 {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	margin-bottom: 160px;
+}
+
+section > #north > .page1 > .left {
+	position: relative;
+	margin-right: 20px;
+}
+
+section > #north > .page1 h3 {
+	width: 500px;
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+}
+
+section > #north > .page1 > .left > img:nth-of-type(1) {
+	width: 400px;
+	height: 250px;
+}
+
+section > #north > .page1 > .left > img:nth-of-type(2) {
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	width: 200px;
+	height: 150px;
+}
+
+section > #north > .page1 > .left > h3,
+section > #north > .page1 > .left > p {
+	text-align: left;
+}
+
+section > #north > .page1 > .right > h3,
+section > #north > .page1 > .right > p {
+	text-align: right;
+}
+
+section > #north > .page1 p {
+	display: block;
+	width: 500px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+}
+
+section > #north > .page1 > .right > img {
+	width: 500px;
+	height: 200px;
+}
+
+section > #north > .saryeoni {
+	position: relative;
+	height: 400px;
+	text-indent: -9999px;
+	background-image: url(./../images/saryeoni1.png);
+}
+
+/* section > #north > .saryeoni:after {
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 400px;
+	content: '';
+	opacity: .5;
+} */
+
+section > #north > .page2 > h3 {
+	height: 50px;
+	font-size: 28px;
+	line-height: 50px;
+	font-family: 'Gugi';
+	text-align: center;
+}
+
+section > #north > .page2 > p {
+	display: block;
+	margin-bottom: 10px;
+	font-size: 13px;
+	font-family: 'Gowun Batang';
+	text-align: center;
+}
+
+/* footer */
+footer {
+	height: 80px;
+	background-color: #333;
+}
+
+footer > address {
+	color: #aaa;
+	font-family: 'Gugi';
+	text-align: center;
+	line-height: 80px;
+}
+
+/* aside */
+@keyframes aside {
+	0% {
+		transform: rotate(0deg);
+	}
+	100% {
+		transform: rotate(2560deg);
+	}
+}
+
+aside {
+	position: fixed;
+	right: 2em;
+	bottom: 1em;
+
+	animation: aside 60s infinite alternate;
+}
+
+aside > a {
+	display: block;
+	width: 35px;
+	height: 35px;
+	text-indent: -9999px;
+	background-image: url(./../icons/topbtn.png);
+	background-size: cover;
+}
